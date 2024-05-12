@@ -12,8 +12,8 @@ def main():
         if length <= 0:
             print("Length should be a positive integer.")
             return
-        password = generate_password(length)
-        print("Generated Password:", password)
+        password = grd(length)
+        print( password)
     except ValueError:
         print("Please enter a valid integer for the length.")
 
